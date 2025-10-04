@@ -1,0 +1,175 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace el sitio responsivo para dispositivos móviles -->
+    <title>Tienda</title> <!-- Título de la pestaña del navegador -->
+    <link rel="stylesheet" href="css/styles1.css"> <!-- Enlace al archivo de estilos CSS personalizado -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Enlace a la biblioteca de íconos Font Awesome -->
+</head>
+<body>
+    <!-- Cabecera del sitio -->
+    <header class="nav-bar"> 
+        <section class="container">
+          <button class="menu-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
+            </svg>
+            <svg class="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path
+                d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z" />
+            </svg>
+          </button>
+          <div class="logo">
+            <a href="index.html" class="logo-link">
+              <img src="img/logo-mate.jpg" alt="Tienda de Mate"  />
+            </a>
+          </div>
+          <div class="div"></div>
+
+          <nav class="menu">
+            
+            <a href="tienda.html">NUESTRO MATE</a>
+            <a href="tutoriales.html">TUTORIALES</a>
+            <a href="#">LOCALES</a>
+            <a href="menu-tienda.html">NUESTRO MENÚ</a>
+            <a href="trabaja-en-tdm.html">TRABAJÁ CON NOSOTROS</a>
+            <a href="franquicias.html">FRANQUICIAS</a>
+            <a href="contacto.html">CONTACTO</a>
+            
+          </nav>
+        </section>
+    </header>
+    <main> <!-- Contenido principal de la página -->
+        <!-- Sección de banner con imagen de fondo -->
+        <section class="hero-tienda" style="background-image: url('img/tienda/banner-tienda.jpg');">
+            <div class="container hero-content">
+                <h1>Nuestros Mates y Accesorios</h1> <!-- Título de bienvenida -->
+                <p>Descubre la calidad y la tradición en cada uno de nuestros productos.</p> <!-- Subtítulo -->
+            </div>
+        </section>
+
+        <!-- Sección de productos -->
+        <section class="products-section section-padding">
+            <div class="container">
+                <h2 class="section-title">Nuestras Yerbas</h2> <!-- Título de categoría -->
+
+                <div class="product-grid"> <!-- Grilla de productos -->
+                    <!-- Producto 1 -->
+                    <div class="product-card">
+                        <img src="img/tienda/yerba-tradicional.jpg" alt="Yerba Mate Tradicional" class="product-image" title="Yerba de sabor clásico para el día a día"> <!-- Imagen del producto -->
+                        <h3 class="product-title">Yerba Mate Tradicional</h3> <!-- Nombre del producto -->
+                        <p class="product-description">Sabor intenso y duradero, ideal para el mate de cada día.</p> <!-- Descripción -->
+                        <span class="product-price">$15.200</span> <!-- Precio -->
+                        <button class="btn add-to-cart">Agregar al Carrito</button> <!-- Botón para agregar al carrito -->
+                    </div>
+
+                    <!-- Producto 2 -->
+                    <div class="product-card">
+                        <img src="img/tienda/yerba-suave.jpeg" alt="Yerba Mate Suave" class="product-image" title="Yerba con un perfil de sabor más suave y delicado">
+                        <h3 class="product-title">Yerba Mate Suave</h3>
+                        <p class="product-description">Un blend más ligero para un mate más delicado.</p>
+                        <span class="product-price">$15.500</span>
+                        <button class="btn add-to-cart">Agregar al Carrito</button>
+                    </div>
+
+                    <!-- Producto 3 -->
+                    <div class="product-card">
+                        <img src="img/tienda/yerba-organica.jpeg" alt="Yerba Mate Orgánica" class="product-image" title="Yerba cultivada de forma ecológica y natural">
+                        <h3 class="product-title">Yerba Mate Orgánica</h3>
+                        <p class="product-description">Cultivada sin agroquímicos, pureza en cada sorbo.</p>
+                        <span class="product-price">$26.100</span>
+                        <button class="btn add-to-cart">Agregar al Carrito</button>
+                    </div>
+                </div>
+
+                <!-- Segunda categoría de productos -->
+                <h2 class="section-title">Mates Artesanales</h2>
+                <div class="product-grid">
+                    <!-- Producto 4 -->
+                    <div class="product-card">
+                        <img src="img/tienda/mate-calabaza.jpg" alt="Mate de Calabaza Premium" class="product-image"title="Mate de calabaza natural, curado y listo para usar">
+                        <h3 class="product-title">Mate de Calabaza Premium</h3>
+                        <p class="product-description">Selección de calabazas curadas, listas para disfrutar.</p>
+                        <span class="product-price">$52.500</span>
+                        <button class="btn add-to-cart">Agregar al Carrito</button>
+                    </div>
+
+                    <!-- Producto 5 -->
+                    <div class="product-card">
+                        <img src="img/tienda/mate-algarrobo.jpg" alt="Mate de Algarrobo" class="product-image" title="Mate de madera de algarrobo, resistente y tradicional">
+                        <h3 class="product-title">Mate de Algarrobo Nativo</h3>
+                        <p class="product-description">Madera noble y diseño robusto para el mate diario.</p>
+                        <span class="product-price">$60.800</span>
+                        <button class="btn add-to-cart">Agregar al Carrito</button>
+                    </div>
+                </div>
+
+                <!-- Tercera categoría de productos -->
+                <h2 class="section-title">Accesorios</h2>
+                <div class="product-grid">
+                    <!-- Producto 6 -->
+                    <div class="product-card">
+                        <img src="img/tienda/bombilla-acero.jpg" alt="Bombilla de Acero Inoxidable" class="product-image" title="Bombilla de acero inoxidable, fácil de limpiar y duradera">
+                        <h3 class="product-title">Bombilla Acero Inoxidable</h3>
+                        <p class="product-description">Duradera y fácil de limpiar, ideal para todo tipo de yerba.</p>
+                        <span class="product-price">$22.800</span>
+                        <button class="btn add-to-cart">Agregar al Carrito</button>
+                    </div>
+
+                    <!-- Producto 7 -->
+                    <div class="product-card">
+                        <img src="img/tienda/termo-acero.jpg" alt="Termo de Acero Inoxidable" class="product-image" title="Termo de acero inoxidable con doble pared para mantener la temperatura">
+                        <h3 class="product-title">Termo de Acero Inoxidable</h3>
+                        <p class="product-description">Mantiene la temperatura ideal para tus mates por horas.</p>
+                        <span class="product-price">$75.000</span>
+                        <button class="btn add-to-cart">Agregar al Carrito</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+     
+    <!-- FOOTER -->
+<footer class="footer">
+<div class="footer-container container">
+
+    <div class="footer-logo">
+      <img src="img/general/logo-matera.png" alt="Logo de La Matera">
+    </div>
+
+    <div class="footer-column">
+      <h4>CONTENIDOS</h4>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="tienda.html">Nuestro Mate</a></li>
+        <li><a href="#">Locales</a></li>
+        <li><a href="menu-tienda.html">Nuestro menú</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>NECESITÁS AYUDA</h4>
+      <ul>
+        <li><a href="tutoriales.html">Tutoriales</a></li>
+        <li><a href="trabaja-en-tdm.html">Trabajá en TDM</a></li>
+        <li><a href="franquicias.html">Franquicias</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column suscripcion-col">
+      <h4>¡SUSCRIBITE PARA RECIBIR DESCUENTOS Y NOVEDADES EXCLUSIVAS!</h4>
+      <form class="suscripcion">
+        <input type="text" placeholder="Tu nombre" required>
+        <input type="email" placeholder="Tu email" required>
+        <button type="submit">SUSCRIBIRME</button>
+      </form>
+    </div>
+
+</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Hace que la página sea responsive en dispositivos móviles -->
+    <title>Tienda de Mate - Franquicias</title>
+    <link rel="stylesheet" href="css/styles1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+    <header class="nav-bar"> 
+        <section class="container">
+          <button class="menu-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
+            </svg>
+            <svg class="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path
+                d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z" />
+            </svg>
+          </button>
+          <div class="logo">
+            <a href="index.html" class="logo-link">
+            <img src="img/logo-mate.jpg" alt="Tienda de Mate"  />
+            </a>
+          </div>
+          <div class="div"></div>
+
+          <nav class="menu">
+            
+            <a href="tienda.html">NUESTRO MATE</a>
+            <a href="tutoriales.html">TUTORIALES</a>
+            <a href="#">LOCALES</a>
+            <a href="menu-tienda.html">NUESTRO MENÚ</a>
+            <a href="trabaja-en-tdm.html">TRABAJÁ CON NOSOTROS</a>
+            <a href="franquicias.html">FRANQUICIAS</a>
+            <a href="contacto.html">CONTACTO</a>
+            
+          </nav>
+        </section>
+    </header>
+    <main> <!-- Contenido principal del sitio -->
+    <!-- Sección de PORTADA o BANNER de franquicias -->
+        <section class="hero-franquicias" style="background-image: url('img/franquicias/banner-franquicias.jpg');">
+            <div class="container hero-content">
+                <h1>Franquicias Tienda de Mate</h1>
+                <p>Una oportunidad única para emprender en el mundo del mate</p>
+            </div>
+        </section>
+    <!-- Sección: ¿Por qué invertir? -->
+        <section class="why-franchise section-padding">
+            <div class="container">
+                <h2 class="section-title">¿Por qué invertir en una franquicia de Tienda de Mate?</h2>
+                <div class="info-grid">
+                    <!-- Ítem 1: Marca reconocida -->
+                    <div class="info-item">
+                        <i class="fas fa-handshake icon-large"></i> <!-- Ícono de apretón de manos -->
+                        <h3>Marca Reconocida</h3>
+                        <p>Únete a una marca en crecimiento con una sólida reputación en el mercado del mate.</p>
+                    </div>
+                    <!-- Ítem 2: Modelo de Negocio probado -->
+                    <div class="info-item">
+                        <i class="fas fa-chart-line icon-large"></i> <!-- Ícono de gráfico -->
+                        <h3>Modelo de Negocio Probado</h3>
+                        <p>Contamos con un sistema que es operativo, eficiente y rentable, listo para implementar.</p>
+                    </div>
+                    <!-- Ítem 3: Soporte integral -->
+                    <div class="info-item">
+                        <i class="fas fa-users-cog icon-large"></i><!-- Ícono de usuarios con un engranaje -->
+                        <h3>Soporte Integral</h3>
+                        <p>Te acompañamos desde el inicio con capacitación, marketing y gestión.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sección: Proceso de adhesión -->
+        <section class="process-section section-padding bg-light">
+            <div class="container">
+                <h2 class="section-title">Nuestro Proceso de Adhesión</h2>
+                <ul class="process-steps-list"> <li>
+                        <h3>Paso 1: Consulta Inicial</h3>
+                        <p>Complete el formulario y uno de nuestros asesores se pondrá en contacto con Ud.</p>
+                    </li>
+                    <li>
+                        <h3>Paso 2: Presentación y Análisis</h3>
+                        <p>Conocemos su perfil y le presentamos el modelo de negocio en detalle.</p>
+                    </li>
+                    <li>
+                        <h3>Paso 3: Firma y Capacitación</h3>
+                        <p>Formalizamos el acuerdo y lo preparamos para la apertura de su local.</p>
+                    </li>
+                    <li>
+                        <h3>Paso 4: Apertura y Acompañamiento</h3>
+                        <p>Lanzamos su tienda y le brindamos soporte continuo post-apertura.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Sección: Formulario de contacto -->
+        <section class="contact-form-section section-padding">
+            <div class="container">
+                <h2 class="section-title">Solicite Más Información</h2>
+                <p>Complete el siguiente formulario y nos pondremos en contacto a la brevedad.</p>
+                <form class="franchise-form"><!-- Formulario de solicitud de franquicia -->
+                    <!-- Campo: Nombre -->
+                    <div class="form-group">
+                        <label for="nombre-franquicia">Nombre Completo:</label>
+                        <input type="text" id="nombre-franquicia" name="nombre" required>
+                    </div>
+                    <!-- Campo: Email -->
+                    <div class="form-group">
+                        <label for="email-franquicia">Email:</label>
+                        <input type="email" id="email-franquicia" name="email" required>
+                    </div>
+                    <!-- Campo: Teléfono -->
+                    <div class="form-group">
+                        <label for="telefono-franquicia">Teléfono:</label>
+                        <input type="tel" id="telefono-franquicia" name="telefono">
+                    </div>
+                    <!-- Campo: Ciudad -->
+                    <div class="form-group">
+                        <label for="ciudad-interes">Ciudad de Interés:</label>
+                        <input type="text" id="ciudad-interes" name="ciudad">
+                    </div>
+                    <!-- Campo: Mensaje -->
+                    <div class="form-group">
+                        <label for="mensaje-franquicia">Mensaje (Opcional):</label>
+                        <textarea id="mensaje-franquicia" name="mensaje" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Solicitud</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+<footer class="footer">
+<div class="footer-container container">
+
+      <div class="footer-logo">
+       <img src="img/general/logo-matera.png" alt="Logo de La Matera">
+      </div>
+
+    <div class="footer-column">
+      <h4>CONTENIDOS</h4>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="tienda.html">Nuestro Mate</a></li>
+        <li><a href="#">Locales</a></li>
+        <li><a href="menu-tienda.html">Nuestro menú</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>NECESITÁS AYUDA</h4>
+      <ul>
+        <li><a href="tutoriales.html">Tutoriales</a></li>
+        <li><a href="trabaja-en-tdm.html">Trabajá en TDM</a></li>
+        <li><a href="franquicias.html">Franquicias</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column suscripcion-col">
+      <h4>¡SUSCRIBITE PARA RECIBIR DESCUENTOS Y NOVEDADES EXCLUSIVAS!</h4>
+      <form class="suscripcion">
+        <input type="text" placeholder="Tu nombre" required>
+        <input type="email" placeholder="Tu email" required>
+        <button type="submit">SUSCRIBIRME</button>
+      </form>
+      <p class="conectate">CONECTATE CON NOSOTROS</p>
+      <div class="redes">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-copy">
+    <p>&copy; 2025 Tienda de Mate - Todos los derechos reservados.</p>
+    <p>Todos los logos, productos, marcas y nombres aquí utilizados son propiedad registrada.</p>
+  </div>
+    </div>
+</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
