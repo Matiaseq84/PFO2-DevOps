@@ -3,8 +3,9 @@ version: '3.8'
 services:
   web:
     build: .
-    container_name: tpg01-web
+    container_name: pfo2-web
     ports:
       - "8081:80"
     volumes:
       - .:/usr/share/nginx/html
+
