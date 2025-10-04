@@ -25,12 +25,15 @@ PFO2-DevOps/
    cd PFO2-DevOps
 
 2. Construir la imagen:
+   ```bash
    docker build -t matiaseq/pfo2-web .
 
-3. Levantar el contenedor:
+4. Levantar el contenedor:
+   ```bash
    docker run -d --name pfo2-web -p 8081:80 matiaseq/pfo2-web
 
-4. Abrir en el navegador:
+6. Abrir en el navegador:
+   ```bash
     http://localhost:8081
 
 🔹 Si el puerto 8081 está ocupado, podés cambiarlo en el comando -p <puerto_local>:80.
@@ -38,14 +41,13 @@ PFO2-DevOps/
 # Usando Docker Compose
 
 1. Levantar los servicios:
-  docker-compose up -d
+   ```bash
+     docker-compose up -d
 
-2. Abrir la aplicación en el navegador:
-
-  http://localhost:8081
+Esto levantará automáticamente la aplicación en http://localhost:8081.
 
 3. Detener los servicios:
-
+   ```bash
    docker-compose down
 
 # Notas importantes
